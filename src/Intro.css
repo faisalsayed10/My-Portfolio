@@ -1,0 +1,30 @@
+.scroll-text {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 200px;
+    opacity: 0;
+    transition: cubic-bezier(0.23, 1, 0.620, 1) 0.5s;
+    margin: 150px;
+}
+
+.active {
+    opacity: 1;
+}
+
+
+.test {
+    height: 1000px;
+}
+
+.special-text1 {
+    margin-bottom: 600px;    
+}
+
+.special-text2 {
+    margin-bottom: 250px;
+}
+
+.scroll-text:hover {
+    cursor: default;
+}
