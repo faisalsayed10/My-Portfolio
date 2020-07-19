@@ -25,7 +25,11 @@
     background-color: whitesmoke;
     border-radius: 10px;
     font-family: Ubuntu;
-    width: 461px;
+    width: 440px;
+    box-shadow: -15px -10px 50px #282c34, -5px -10px 50px whitesmoke;
+    transition: transform 0.1s;
+    transition-timing-function: cubic-bezier(0.55, 0.67, 0.8, 1);
+    cursor: crosshair;
 }
 
 .card-1 {
@@ -91,4 +95,31 @@ img {
 
 .special-link {
     margin-top: 120px;
+}
+
+.link-text {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #282c34;
+}
+
+.mod-link {
+    font-size: 28px;
+    font-weight: 400;
+    color: #282c34;
+    text-decoration: none;
+    transition: font-size 0.1s, color 0.1s, background-color 0.1s;
+    padding: 5px;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+}
+
+.mod-link:hover {
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: #282c34;
+    border-radius: 15px;
 }
