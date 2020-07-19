@@ -1,0 +1,94 @@
+.project-container {
+    background-color: whitesmoke;
+    position: sticky;
+    top: 43px;
+}
+
+.projects-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #282c34;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.cards {
+    margin: 10px;
+    color: #282c34;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-family: Ubuntu;
+    width: 461px;
+}
+
+.card-1 {
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.prj-img-1 {
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.prj-img-2 {
+    margin: 20px;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.prj-img-3 {
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: solid whitesmoke 1px;
+}
+
+.card1-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.card1-desc {
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card2-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.card2-desc {
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.proj-links {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom: 100px;
+}
+
+.special-link {
+    margin-top: 120px;
+}

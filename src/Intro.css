@@ -18,11 +18,13 @@
 }
 
 .special-text1 {
-    margin-bottom: 600px;    
+    margin-bottom: 600px;
+    z-index: -1;
 }
 
 .special-text2 {
-    padding-bottom: 200px;
+    padding-bottom: 300px;
+    z-index: -1;
 }
 
 .scroll-text:hover {

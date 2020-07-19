@@ -4,7 +4,7 @@ import './Nav.css';
 function Nav() {
   return (
     <>
-
+      <div id='home'></div>
       <div className='Navbar1'>
         <nav className='Nav1'>
           <h1 className='nav1-child'>Welcome</h1>

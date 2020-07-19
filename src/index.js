@@ -4,6 +4,7 @@ import './index.css';
 import Nav from './Nav';
 import Intro from './Intro';
 import About from './About';
+import Projects from './Projects';
 
 const MainBody = () => {
   return(
@@ -11,6 +12,7 @@ const MainBody = () => {
     <Nav />
     <Intro />
     <About />
+    <Projects />
   </div>
   )
 }
