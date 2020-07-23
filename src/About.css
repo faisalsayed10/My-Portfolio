@@ -2,7 +2,7 @@
 .myPic{
     display: block;
     margin-top: 150px;
-    margin-left: 5%;
+    margin: 0 auto;
     border: solid whitesmoke 5px;
     border-radius: 50px;
     width: 20%;
@@ -21,10 +21,10 @@
 
 .about-me {
     font-family: 'Ubuntu', sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
     margin-left: 5%;
-    margin-right: 45%;
+    margin-right: 5%;
     cursor: crosshair;
 }
 
@@ -76,4 +76,22 @@ text {
 .txt9:hover {
     color: #e74c3c;
     transform: scale(1.01);
+}
+
+.coding-journey-title {
+    background-color: whitesmoke;
+    color: #282c34;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.coding-journey-desc {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: crosshair;
+    color: whitesmoke;
 }

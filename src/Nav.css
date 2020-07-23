@@ -21,6 +21,8 @@
 
 
 .nav1-child {
+  font-family: monospace;
+  font-size: 30px;
   text-align: center;
   color: whitesmoke;
   margin: 10px;
@@ -51,6 +53,7 @@
 }
 
 .nav2-child {
+  padding: 5px;
   text-align: center;
   color: #282c34;
   margin: 10px;
@@ -64,6 +67,5 @@
   transform: scale(1.1);
   color: whitesmoke;
   background-color: #282c34;
-  padding: 5px;
   border-radius: 12px;
 }

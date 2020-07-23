@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Project.css';
+import './MinorProjects.js';
+import MinorProjects from './MinorProjects.js';
 
 const Projects = () => {
     const projectImage1 = 'https://bit.ly/3eJFvBU';
@@ -13,32 +15,38 @@ const Projects = () => {
         <>
             <div id='project' className='project-container'>
                 <h1 className='projects-title'>My Projects</h1>
-            </div>
+            
 
             <div className='project-cards'>
                 <div className='cards card-1'>
-                    <img className='prj-img-1' src={projectImage1} alt='Mahatma Gandhi'></img>
-                    <h1 className='card1-title'>Mahatma Gandhi Tribute Page</h1>
-                    <h1 className='card1-desc'>This was my first ever website which I made with HTML and CSS.</h1>
-                    <h1 className='proj-links'>Link: <text className='link-text'><a className='mod-link' href={projectLink1} target="_blank" title='Visit Website'>Tribute Page</a></text></h1>
+                    {/* <a className="removeClass" href={projectLink1} target='_blank'>
+                        <img className='prj-img-1 prj-img' src={projectImage1} alt='Mahatma Gandhi'></img>
+                        <h1 className='card1-title'>Mahatma Gandhi Tribute Page</h1>
+                        <h1 className='card1-desc'>This was my first ever website which I made with HTML and CSS.</h1>
+                    </a> */}
+                    <h1 className='cmng-soon'>Coming Soon</h1>
                 </div>
                 <div className='cards card-2'>
-                    <img className='prj-img-2' src={projectImage2}></img>
+                    <img className='prj-img-2 prj-img' src={projectImage2}></img>
                     <h1 className='card2-title'>Rius</h1>
                     <h1 className='card2-desc'>This is my first ever built indie game for Android.
                      This is a platformer game which revolves around the journey of Rius.</h1>
-                     <h1 className='proj-links'>Link: <text className='link-text'>Coming Soon</text></h1>
                 </div>
                 <div className='cards card-3'>
-                    <img className='prj-img-3' src={projectImage3}></img>
-                    <h1 className='card2-title'>Crassh</h1>
-                    <h1 className='card2-desc'>A Website Made With Webflow</h1>
-                    <h1 className='proj-links special-link'>Link: <text className='link-text'><a className='mod-link' href={projectLink3} target="_blank" title='Visit Website'>Visit</a></text></h1>
+                    <a className="removeClass" href={projectLink3} target='_blank'>
+                        <img className='prj-img-3 prj-img' src={projectImage3}></img>
+                        <h1 className='card2-title'>Crassh</h1>
+                        <h1 className='card2-desc'>A Website Made With Webflow</h1>
+                        <h1 className='card2-desc'>Following <a className='removeClass' target='_blank' href='https://designcode.io/webflow-course'>This</a> Course</h1>
+                    </a>
                 </div>
-            </div>
+                </div>
+            
             
             <div className='minor-proj'>
-                    <h1>My Other Minor Projects</h1>
+                <h1 className='minor-proj-title'>My Other Minor Projects</h1>
+                <MinorProjects />
+            </div>
             </div>
         </>
     )

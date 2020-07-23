@@ -5,6 +5,8 @@ import Nav from './Nav';
 import Intro from './Intro';
 import About from './About';
 import Projects from './Projects';
+import Contact from './Contact';
+import Outro from './Outro.js';
 
 const MainBody = () => {
   return(
@@ -13,6 +15,8 @@ const MainBody = () => {
     <Intro />
     <About />
     <Projects />
+    <Contact />
+    <Outro />
   </div>
   )
 }

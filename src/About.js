@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './About.css';
+import './AbtCodingJourney';
+import AbtCodingJourney from './AbtCodingJourney';
 
 const MyImage = 'https://doggo.ninja/IBf0BT.png';
 
@@ -19,6 +21,7 @@ const About = () => {
                 <text className='txt6'>I am also a Hack Clubber!</text><text className='txt9'> I love to play games,</text><text className='txt2'> make gaming videos</text><text className='txt8'> and have fun with it. </text>
                 </p>
             </div>
+            <AbtCodingJourney />
             </div>
         </>
     )
