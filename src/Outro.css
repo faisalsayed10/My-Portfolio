@@ -1,4 +1,16 @@
 .main-outro {
     background-color: whitesmoke;
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#outro-text {
+    margin: 0 5%;
+    background-color: whitesmoke;
+    color: #282c34;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    font-size: 30px;
 }
