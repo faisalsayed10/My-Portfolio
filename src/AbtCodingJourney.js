@@ -8,13 +8,13 @@ const AbtCodingJourney = () => {
                 <h1 className='coding-journey-title'>My Coding Journey</h1>
 
                 <div className='coding-journey-desc'>
-                    <p><text className='txt1'>When I was 12 years old,</text><text className='txt2'> I found this website called </text><text className='txt3'><a target='_blank' className='removeClass' href='http://code.org'>Code.org</a></text>
-                        . <text className='tx4'>It was really</text> <text className='txt5'>a fun website</text> <text className='txt6'>and I started liking it.</text> <text className='txt7'>I completed nearly all</text> <text className='txt8'>of their courses in 2-3 months</text> 
-                        <text className='txt9'> and then </text> <text className='txt6'>I moved to</text> <text className='txt4'><a target='_blank' className='removeClass' href='http://freecodecamp.org'>freeCodeCamp.org</a></text> 
-                        <text className='txt1'> to learn more</text> <text className='txt2'>about Web Development.</text> <text className='txt8'>They also had great self-explainatory tutorials</text> <text className='txt7'>through which I</text> <text className='txt3'>learnt HTML, CSS, Bootstrap, Jquery and Javascript in a
-                         single year!</text> <text className='txt9'>But this was just the start...</text>
+                    <p><span className='txt1'>When I was 12 years old,</span><span className='txt2'> I found this website called </span><span className='txt3'><a target='_blank' className='removeClass' href='http://code.org'>Code.org</a></span>
+                        . <span className='tx4'>It was really</span> <span className='txt5'>a fun website</span> <span className='txt6'>and I started liking it.</span> <span className='txt7'>I completed nearly all</span> <span className='txt8'>of their courses in 2-3 months</span> 
+                        <span className='txt9'> and then </span> <span className='txt6'>I moved to</span> <span className='txt4'><a target='_blank' className='removeClass' href='http://freecodecamp.org'>freeCodeCamp.org</a></span> 
+                        <span className='txt1'> to learn more</span> <span className='txt2'>about Web Development.</span> <span className='txt8'>They also had great self-explainatory tutorials</span> <span className='txt7'>through which I</span> <span className='txt3'>learnt HTML, CSS, Bootstrap, Jquery and Javascript in a
+                         single year!</span> <span className='txt9'>But this was just the start...</span>
                     </p>
-                    <text className='txt1'><p><Link className='removeClass' to='/journey'>Read More Here</Link>.</p></text>
+                    <p><span className='txt1'><Link className='removeClass' to='/journey'>Read More Here</Link>.</span></p>
                 </div>
             </div>
         </>
