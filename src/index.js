@@ -8,7 +8,7 @@ import Nav from './Nav';
 
 const Index = () => {
   return (
-      <BrowserRouter>
+      <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
         <Route path='/' exact component={MainBody} />
         <Route path='/journey' exact component={JourneyMain} />
       </BrowserRouter>
