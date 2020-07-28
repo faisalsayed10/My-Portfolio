@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 const AbtCodingJourney = () => {
     return(
@@ -14,7 +14,7 @@ const AbtCodingJourney = () => {
                         <text className='txt1'> to learn more</text> <text className='txt2'>about Web Development.</text> <text className='txt8'>They also had great self-explainatory tutorials</text> <text className='txt7'>through which I</text> <text className='txt3'>learnt HTML, CSS, Bootstrap, Jquery and Javascript in a
                          single year!</text> <text className='txt9'>But this was just the start...</text>
                     </p>
-                    <text className='txt1'><p><a className='removeClass' href='/journey'>Read More Here</a>.</p></text>
+                    <text className='txt1'><p><Link className='removeClass' to='/journey'>Read More Here</Link>.</p></text>
                 </div>
             </div>
         </>
