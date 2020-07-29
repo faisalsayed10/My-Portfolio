@@ -8,9 +8,14 @@
 
 #outro-text {
     margin: 0 5%;
-    background-color: whitesmoke;
     color: #282c34;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
     font-size: 30px;
+}
+
+@media(max-width: 500px) {
+    #outro-text {
+        font-size: 20px;
+    }
 }

@@ -31,3 +31,33 @@
 .scroll-text:hover {
     cursor: default;
 }
+
+@media(max-width: 1150px) {
+    .scroll-text {
+        display: block;
+        font-size: 150px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 750px) {
+    .scroll-text {  
+        font-size: 100px;
+        margin-bottom: 300px;
+    }
+}
+
+@media(max-width: 500px) {
+    .scroll-text {  
+        font-size: 75px;
+        margin-bottom: 300px;
+    }
+}
+
+@media(max-width: 350px) {
+    .scroll-text {  
+        font-size: 50px;
+        margin-bottom: 300px;
+    }
+}

@@ -65,3 +65,17 @@
     background-color: whitesmoke;
     text-decoration: none;
 }
+
+@media(max-width: 750px) {
+    .web-links {
+        flex-wrap: wrap;
+    }
+
+    .my-journey {
+        font-size: 60px;
+    }
+    .journey-desc {
+        font-size: 25px;
+        text-align: justify;
+    }
+}

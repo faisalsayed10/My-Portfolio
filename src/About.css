@@ -95,3 +95,55 @@ text {
     cursor: crosshair;
     color: whitesmoke;
 }
+
+
+@media(max-width: 1000px) {
+    .about-me {
+        font-size: 30px;
+    }
+
+    .coding-journey-desc {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 500px) {
+    .about-me {
+        font-size: 20px;
+    }
+
+    .about-title {
+        font-size: 55px;
+    }
+
+    .coding-journey-title {
+        font-size: 50px;
+    }
+
+    .coding-journey-desc {
+        font-size: 20px;
+        margin: 10px;
+    }
+}
+
+@media(max-width: 350px) {
+    .about-me {  
+        font-size: 20px;
+        margin-bottom: 300px;
+    }
+
+    .about-title {
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .coding-journey-title {
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    .coding-journey-desc {
+        font-size: 18px;
+        margin: 10px;
+    }
+}
