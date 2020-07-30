@@ -5,8 +5,8 @@ import './MinorProjects.js';
 import MinorProjects from './MinorProjects.js';
 
 const Projects = () => {
-    const projectImage1 = 'https://bit.ly/3eJFvBU';
-    const projectLink1 = 'https://codepen.io/Faisalsayed05/full/GQwwaR';
+    const projectImage1 = 'https://doggo.ninja/RUtKvm.PNG';
+    const projectLink1 = 'https://hacktoberfest-2020-recreated.webflow.io/';
     const projectImage2 = 'https://doggo.ninja/p5OrIe.png';
     const projectImage3 = 'https://doggo.ninja/n3Sw87.png';
     const projectLink3 = 'https://crassh.webflow.io';
@@ -19,12 +19,11 @@ const Projects = () => {
 
             <div className='project-cards'>
                 <div className='cards card-1'>
-                    {/* <a className="removeClass" href={projectLink1} target='_blank'>
-                        <img className='prj-img-1 prj-img' src={projectImage1} alt='Mahatma Gandhi'></img>
-                        <h1 className='card1-title'>Mahatma Gandhi Tribute Page</h1>
-                        <h1 className='card1-desc'>This was my first ever website which I made with HTML and CSS.</h1>
-                    </a> */}
-                    <h1 className='cmng-soon'>Coming Soon</h1>
+                     <a className="removeClass" href={projectLink1} target='_blank'>
+                        <img className='prj-img-1 prj-img' src={projectImage1} alt='Hactoberfest recreated'></img>
+                        <h1 className='card1-title'>Hacktoberfest 2020 Recreated.</h1>
+                        <h1 className='card1-desc'>I recreated the Hactoberfest 2020 website in Webflow!</h1>
+                    </a>
                 </div>
                 <div className='cards card-2'>
                     <img className='prj-img-2 prj-img' src={projectImage2}></img>
