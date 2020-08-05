@@ -13,3 +13,9 @@ body {
 code {
   font-family: 'Ubuntu', sans-serif;
 }
+
+noscript {
+  text-align: center;
+  font-size: 25px;
+  color: whitesmoke;
+}
