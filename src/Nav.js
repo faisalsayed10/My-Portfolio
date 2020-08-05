@@ -7,7 +7,7 @@ function Nav() {
       <div id='home'></div>
       <div className='Navbar1'>
         <nav className='Nav1'>
-          <h1 className='nav1-child'>Welcome</h1>
+          <h1 className='nav1-child'>Scroll 👇</h1>
         </nav>
       </div>
 

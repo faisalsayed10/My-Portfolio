@@ -27,7 +27,7 @@ const H1 = (props) => {
             // console.log(ref)
             const TextRect = ref.current?.getBoundingClientRect();
             if (TextRect) {
-                console.log(ref)
+                // console.log(ref)
                 const slideInAt = (window.scrollY + window.innerHeight) - TextRect.height / 2;
                 const textBottom = TextRect.top + TextRect.height;
                 const isHalfShown = slideInAt > TextRect.top;
