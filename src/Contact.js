@@ -13,7 +13,7 @@ const Contact = () => {
     const freeCodeCampImg = 'https://doggo.ninja/hFEPlc.png';
     const freeCodeCampLink = 'https://www.freecodecamp.org/faisal.sayed05';
     const mailLogo = 'https://doggo.ninja/uSFqAk.png';
-    const mailLink = 'mailto:faisal.sayed502@gmail.com';
+    const mailLink = 'faisal.sayed502@gmail.com';
     const scbookLogo = 'https://doggo.ninja/JlpYkL.svg';
     const scbookLink = 'https://scrapbook.hackclub.com/fayd';
 
