@@ -1,11 +1,74 @@
 
-.myPic{
+.myPic1{
+    z-index: 5;
+    position: relative;
     display: block;
     margin-top: 150px;
     margin: 0 auto;
     border: solid whitesmoke 5px;
     border-radius: 50px;
     width: 20%;
+}
+
+.myPic2{
+    z-index: 5;
+    position: absolute;
+    display: block;
+    margin-top: 150px;
+    margin: 0 auto;
+    border: solid whitesmoke 5px;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.myPic3{
+    z-index: 5;
+    position: absolute;
+    display: block;
+    margin-top: 150px;
+    margin: 0 auto;
+    border: solid whitesmoke 5px;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.myPic4{
+    z-index: 5;
+    position: absolute;
+    display: block;
+    margin-top: 150px;
+    margin: 0 auto;
+    border: solid whitesmoke 5px;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.myPic5{
+    z-index: 5;
+    position: absolute;
+    display: block;
+    margin-top: 150px;
+    margin: 0 auto;
+    border: solid whitesmoke 5px;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.secretLink {
+    z-index: 1;
+    position: absolute;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 200;
+}
+
+.img-flex {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -28,7 +91,7 @@
     cursor: crosshair;
 }
 
-text {
+span {
     color: whitesmoke;
     transition: transform 0.5s, color 0.2s;
 }
@@ -94,6 +157,10 @@ text {
     margin-right: 10%;
     cursor: crosshair;
     color: whitesmoke;
+}
+
+.secret {
+    display: none;
 }
 
 
