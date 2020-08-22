@@ -73,6 +73,7 @@
 
 
 .about-title {
+    z-index: 7;
     background-color: whitesmoke;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
