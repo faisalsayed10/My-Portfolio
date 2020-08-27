@@ -1,173 +1,171 @@
-.project-container { 
-    z-index: 100;
+.project-container {
+  z-index: 100;
 }
 
 .projects-title {
-    position: sticky;
-    top: 42px;
-    background-color: whitesmoke;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    font-size: 80px;
-    color: #282c34;
-    z-index: 2;
+  position: sticky;
+  top: 42px;
+  background-color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 80px;
+  color: #282c34;
+  z-index: 2;
 }
 
 .project-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 100px;
-    margin-top: 200px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 .cards {
-    margin: 10px;
-    padding-top: 15px;
-    color: #282c34;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    font-family: 'Ubuntu', sans-serif;
-    width: 500px;
-    box-shadow: -10px -10px 50px #282c34, -10px -5px 40px whitesmoke;
-    transition: transform 0.1s;
-    transition-timing-function: cubic-bezier(0.55, 0.67, 0.8, 1);
-    cursor: crosshair;
-    padding-bottom: 100px;
+  margin: 10px;
+  padding-top: 15px;
+  color: #282c34;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  width: 500px;
+  box-shadow: -10px -10px 50px #282c34, -10px -5px 40px whitesmoke;
+  transition: transform 0.1s;
+  transition-timing-function: cubic-bezier(0.55, 0.67, 0.8, 1);
+  cursor: crosshair;
+  padding-bottom: 100px;
 }
 
 .card-1 {
-    background-color: whitesmoke;
-    border-radius: 15px;
+  background-color: whitesmoke;
+  border-radius: 15px;
 }
 
 .prj-img-1 {
-    margin-top: 20px;
-    width: 90%;
-    border-radius: 30px;
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 30px;
 }
 
 .prj-img-2 {
-    margin: 20px;
-    width: 90%;
-    border-radius: 30px;
+  margin: 20px;
+  width: 90%;
+  border-radius: 30px;
 }
 
 .prj-img-3 {
-    width: 90%;
-    border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  width: 90%;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .prj-img {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border: solid whitesmoke 1px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: solid whitesmoke 1px;
 }
 
 .card-title {
-    text-align: center;
-    font-size: 35px;
+  text-align: center;
+  font-size: 35px;
 }
 
 .card1-desc {
-    margin: 20px;
-    text-align: center;
-    font-size: 25px;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .card2-desc {
-    margin: 20px;
-    text-align: center;
-    font-size: 25px;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .card3-desc {
-    margin: 20px;
-    text-align: center;
-    font-size: 25px;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .card4-desc {
-    margin: 20px;
-    text-align: center;
-    font-size: 25px;
+  margin: 20px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .cards:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .removeClass {
-    color: inherit;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-    border: 0;
+  color: inherit;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .removeClass:visited {
-    color: inherit;
+  color: inherit;
 }
 
 .minor-proj-title {
-    background-color: whitesmoke;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    font-size: 60px;
-    color: #282c34;
+  background-color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: #282c34;
 }
 
 .minor-proj-list {
-    list-style-type: none;
-    margin-left: 30px;
-    text-align: left;
-    font-size: 40px;
-    color: whitesmoke;
-    font-family: 'Ubuntu', sans-serif;
+  list-style-type: none;
+  margin-left: 30px;
+  text-align: left;
+  font-size: 40px;
+  color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .proj-li {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: whitesmoke;
 }
 
 .cmng-soon {
-    text-align: center;
-    
+  text-align: center;
 }
 
+@media (max-width: 1500px) {
+  .project-cards {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+  }
 
-@media(max-width: 1500px) {
-    .project-cards {
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        margin: 0;
-    }
-
-    .card-title {
-        font-size: 30px;
-    }
+  .card-title {
+    font-size: 30px;
+  }
 }
 
-@media(max-width: 750px) {
-    .minor-proj-list {
-        font-size: 35px;
-    }
+@media (max-width: 750px) {
+  .minor-proj-list {
+    font-size: 35px;
+  }
 }
 
-@media(max-width: 500px) {
-    .projects-title {
-        font-size: 55px;
-        padding: 10px;
-    }
-    .minor-proj-title {
-        font-size: 45px;
-    }
+@media (max-width: 500px) {
+  .projects-title {
+    font-size: 55px;
+    padding: 10px;
+  }
+  .minor-proj-title {
+    font-size: 45px;
+  }
 }
