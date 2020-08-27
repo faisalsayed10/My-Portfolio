@@ -14,6 +14,27 @@
     font-size: 30px;
 }
 
+.webring-anchor {
+    font-size: 24px;
+    color: rgba(132,146,166,.8);
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.webring-logo {
+    background-image: url(https://assets.hackclub.com/icon-rounded.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 4px;
+    vertical-align: middle;
+}
+
 @media(max-width: 500px) {
     #outro-text {
         font-size: 20px;

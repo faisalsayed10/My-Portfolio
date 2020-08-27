@@ -58,7 +58,7 @@
     z-index: 1;
     position: absolute;
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 10px;
+    font-size: 5px;
     text-align: center;
     color: whitesmoke;
     font-weight: 200;
@@ -142,24 +142,6 @@ span {
     transform: scale(1.01);
 }
 
-.coding-journey-title {
-    background-color: whitesmoke;
-    color: #282c34;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    font-size: 60px;
-}
-
-.coding-journey-desc {
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    font-size: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
-    cursor: crosshair;
-    color: whitesmoke;
-}
-
 .secret {
     display: none;
 }
@@ -167,10 +149,6 @@ span {
 
 @media(max-width: 1000px) {
     .about-me {
-        font-size: 30px;
-    }
-
-    .coding-journey-desc {
         font-size: 30px;
     }
 }
@@ -183,15 +161,6 @@ span {
     .about-title {
         font-size: 55px;
     }
-
-    .coding-journey-title {
-        font-size: 50px;
-    }
-
-    .coding-journey-desc {
-        font-size: 20px;
-        margin: 10px;
-    }
 }
 
 @media(max-width: 350px) {
@@ -203,15 +172,5 @@ span {
     .about-title {
         font-size: 50px;
         padding: 10px;
-    }
-
-    .coding-journey-title {
-        font-size: 40px;
-        margin: 0px;
-    }
-
-    .coding-journey-desc {
-        font-size: 18px;
-        margin: 10px;
     }
 }

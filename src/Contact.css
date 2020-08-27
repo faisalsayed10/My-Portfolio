@@ -1,58 +1,58 @@
 .contact-me {
-    z-index: 101;
+  z-index: 101;
 }
 
 .contact-title {
-    position: sticky;
-    top: 42px;
-    background-color: whitesmoke;
-    text-align: center;
-    font-size: 80px;
-    color: #282c34;
-    font-family: 'Ubuntu', sans-serif;
+  position: sticky;
+  top: 42px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 80px;
+  color: #282c34;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .social-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 300px;
-    margin-bottom: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 300px;
+  margin-bottom: 300px;
 }
 
 .social-link {
-    width: 132px;
-    height: 132px;
+  width: 132px;
+  height: 132px;
 }
 
 .social-img {
-    border: solid whitesmoke 5px;
-    border-radius: 90px;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.1s, ;
+  border: solid whitesmoke 5px;
+  border-radius: 90px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.1s;
 }
 
 .social-img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .social-img:visited {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-@media(max-width: 1000px) {
-    .social-container {
+@media (max-width: 1000px) {
+  .social-container {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     margin: 100px;
-    }
+  }
 }
 
-@media(max-width: 500px) {
-    .contact-title {
-        font-size: 55px;
-    }
+@media (max-width: 500px) {
+  .contact-title {
+    font-size: 55px;
+  }
 }

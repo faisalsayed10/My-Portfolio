@@ -8,8 +8,11 @@ const Projects = () => {
   const projectImage1 = "https://doggo.ninja/RUtKvm.PNG";
   const projectLink1 = "https://hacktoberfest-2020-recreated.webflow.io/";
   const projectImage2 = "https://doggo.ninja/p5OrIe.png";
-  const projectImage3 = "https://doggo.ninja/n3Sw87.png";
-  const projectLink3 = "https://crassh.webflow.io";
+  const projectLink2 = "https://play.google.com/store/apps/details?id=com.faydstudios.rius"
+  const projectImage3 = "https://ninja.dog/i0IbpK.PNG";
+  const projectLink3 = "https://7m8o8.csb.app/";
+  const projectImage4 = "https://ninja.dog/5A6nXu.PNG";
+  const projectLink4 = "https://drum.fayd.me/";
   const sample_image = "https://bit.ly/2ZLR3Rf";
   return (
     <>
@@ -24,26 +27,34 @@ const Projects = () => {
                 src={projectImage1}
                 alt="Hactoberfest recreated"
               ></img>
-              <h1 className="card1-title">Hacktoberfest 2020 Recreated.</h1>
+              <h1 className="card-title">Hacktoberfest 2020 Recreated.</h1>
               <h1 className="card1-desc">
                 I recreated the Hactoberfest 2020 website in Webflow!
               </h1>
             </a>
           </div>
           <div className="cards card-2">
+          <a className="removeClass" href={projectLink2} target="_blank">
             <img className="prj-img-2 prj-img" src={projectImage2}></img>
-            <h1 className="card2-title">Rius</h1>
+            <h1 className="card-title">Rius</h1>
             <h1 className="card2-desc">
               This is my first ever built indie game for Android. This is a
               platformer game which revolves around the journey of Rius.
             </h1>
+            </a>
           </div>
           <div className="cards card-3">
             <a className="removeClass" href={projectLink3} target="_blank">
               <img className="prj-img-3 prj-img" src={projectImage3}></img>
-              <h1 className="card2-title">Crassh</h1>
-              <h1 className="card2-desc">A Website Made With Webflow</h1>
-              <h1 className="card2-desc">Following Course</h1>
+              <h1 className="card-title"><span>🍿</span>Binger</h1>
+              <h1 className="card3-desc">Built a movie search app with React!</h1>
+            </a>
+          </div>
+          <div className="cards card-4">
+            <a className="removeClass" href={projectLink4} target="_blank">
+              <img className="prj-img-4 prj-img" src={projectImage4}></img>
+              <h1 className="card-title">Drumkit!</h1>
+              <h1 className="card4-desc">Built a drumkit with Vanilla JS following Wesbos' Course</h1>
             </a>
           </div>
         </div>

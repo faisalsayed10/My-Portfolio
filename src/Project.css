@@ -16,7 +16,6 @@
 .project-cards {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: space-between;
     margin: 100px;
     margin-top: 200px;
@@ -25,7 +24,7 @@
 
 .cards {
     margin: 10px;
-     padding-top: 15px;
+    padding-top: 15px;
     color: #282c34;
     background-color: whitesmoke;
     border-radius: 10px;
@@ -70,7 +69,7 @@
     border: solid whitesmoke 1px;
 }
 
-.card1-title {
+.card-title {
     text-align: center;
     font-size: 35px;
 }
@@ -81,12 +80,19 @@
     font-size: 25px;
 }
 
-.card2-title {
+.card2-desc {
+    margin: 20px;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 
-.card2-desc {
+.card3-desc {
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card4-desc {
     margin: 20px;
     text-align: center;
     font-size: 25px;
@@ -117,6 +123,7 @@
 }
 
 .minor-proj-list {
+    list-style-type: none;
     margin-left: 30px;
     text-align: left;
     font-size: 40px;
@@ -136,7 +143,7 @@
 }
 
 
-@media(max-width: 1000px) {
+@media(max-width: 1500px) {
     .project-cards {
         flex-wrap: wrap;
         flex-direction: row;
@@ -144,8 +151,8 @@
         margin: 0;
     }
 
-    .card-1 {
-        height: 500px;
+    .card-title {
+        font-size: 30px;
     }
 }
 
