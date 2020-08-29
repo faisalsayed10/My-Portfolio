@@ -16,10 +16,9 @@
 .project-cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 100px;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .cards {
@@ -29,7 +28,8 @@
   background-color: whitesmoke;
   border-radius: 10px;
   font-family: "Ubuntu", sans-serif;
-  width: 500px;
+  min-width: 450px;
+  max-width: 450px;
   box-shadow: -10px -10px 50px #282c34, -10px -5px 40px whitesmoke;
   transition: transform 0.1s;
   transition-timing-function: cubic-bezier(0.55, 0.67, 0.8, 1);
@@ -42,26 +42,8 @@
   border-radius: 15px;
 }
 
-.prj-img-1 {
-  margin-top: 20px;
-  width: 90%;
-  border-radius: 30px;
-}
-
-.prj-img-2 {
-  margin: 20px;
-  width: 90%;
-  border-radius: 30px;
-}
-
-.prj-img-3 {
-  width: 90%;
-  border-radius: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .prj-img {
+  border-radius: 30px;
   width: 90%;
   height: auto;
   display: block;
@@ -74,25 +56,7 @@
   font-size: 35px;
 }
 
-.card1-desc {
-  margin: 20px;
-  text-align: center;
-  font-size: 25px;
-}
-
-.card2-desc {
-  margin: 20px;
-  text-align: center;
-  font-size: 25px;
-}
-
-.card3-desc {
-  margin: 20px;
-  text-align: center;
-  font-size: 25px;
-}
-
-.card4-desc {
+.card-desc {
   margin: 20px;
   text-align: center;
   font-size: 25px;
