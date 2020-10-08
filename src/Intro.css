@@ -14,9 +14,17 @@
 }
 
 
-.test {
-    height: 1000px;
-}
+.removeClass {
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  .removeClass:visited {
+    color: inherit;
+  }
 
 .special-text1 {
     margin-bottom: 600px;

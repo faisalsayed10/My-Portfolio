@@ -1,22 +1,22 @@
 .project-container {
+  font-family: "Ubuntu", sans-serif;
   z-index: 100;
+  color: #282c34;
 }
 
 .projects-title {
   position: sticky;
   top: 42px;
   background-color: whitesmoke;
-  font-family: "Ubuntu", sans-serif;
   text-align: center;
   font-size: 80px;
-  color: #282c34;
   z-index: 2;
 }
 
 .more-projects {
   text-align: center;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   font-size: 50px;
   color: whitesmoke;
   text-decoration: none;
@@ -24,49 +24,37 @@
 
 .project-cards {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
-  margin: 100px;
   flex-wrap: wrap;
 }
 
 .cards {
-  margin: 10px;
-  padding-top: 15px;
-  color: #282c34;
+  padding-top: 20px;
+  margin: 20px;
   background-color: whitesmoke;
   border-radius: 10px;
-  font-family: "Ubuntu", sans-serif;
-  min-width: 450px;
+  min-width: 400px;
   max-width: 450px;
-  box-shadow: -10px -10px 50px #282c34, -10px -5px 40px whitesmoke;
-  transition: transform 0.1s;
-  transition-timing-function: cubic-bezier(0.55, 0.67, 0.8, 1);
+  min-height: 550px;
+  box-shadow: 2px 2px 30px rgba(245, 245, 245, 0.7);
+  transition: transform 0.3s cubic-bezier(0.55, 0.67, 0.8, 1);
   cursor: crosshair;
-  padding-bottom: 100px;
-}
-
-.card-1 {
-  background-color: whitesmoke;
-  border-radius: 15px;
 }
 
 .prj-img {
-  border-radius: 30px;
+  border-radius: 10px;
   width: 90%;
-  height: auto;
   display: block;
   margin: 0 auto;
-  border: solid whitesmoke 1px;
 }
 
 .card-title {
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .card-desc {
-  margin: 20px;
+  padding: 20px;
   text-align: center;
   font-size: 25px;
 }
@@ -75,49 +63,8 @@
   transform: scale(1.05);
 }
 
-.removeClass {
-  color: inherit;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-.removeClass:visited {
-  color: inherit;
-}
-
-.minor-proj-title {
-  background-color: whitesmoke;
-  font-family: "Ubuntu", sans-serif;
-  text-align: center;
-  font-size: 60px;
-  color: #282c34;
-}
-
-.minor-proj-list {
-  list-style-type: none;
-  margin-left: 30px;
-  text-align: left;
-  font-size: 40px;
-  color: whitesmoke;
-  font-family: "Ubuntu", sans-serif;
-}
-
-.proj-li {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: whitesmoke;
-}
-
-.cmng-soon {
-  text-align: center;
-}
-
 @media (max-width: 1500px) {
   .project-cards {
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     margin: 0;
   }
@@ -127,27 +74,29 @@
   }
 }
 
-@media (max-width: 750px) {
-  .minor-proj-list {
-    font-size: 35px;
-  }
-}
-
 @media (max-width: 500px) {
   .projects-title {
     font-size: 45px;
     padding: 10px;
   }
-  .minor-proj-title {
-    font-size: 30px;
+  
+  .project-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .cards {
+    min-width: 300px;
+    min-height: 100px;
+  }
+  .card-desc {
     display: none;
   }
+}
 
-  .minor-proj-list {
-    font-size: 25px;
+@media (max-width: 320px) {
+  .cards {
+    min-width: 250px;
   }
-
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+
 .projectPage-title {
   position: sticky;
   top: 0;
@@ -10,4 +11,10 @@
   font-size: 80px;
   color: #282c34;
   z-index: 2;
+}
+
+@media (max-width: 500px) {
+  .cards {
+    width: 200px;
+  }
 }

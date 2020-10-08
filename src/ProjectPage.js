@@ -1,5 +1,5 @@
 import React from "react";
-import './ProjectPage.css';
+import "./ProjectPage.css";
 
 const projectImage1 = "https://doggo.ninja/RUtKvm.PNG";
 const projectLink1 = "https://hacktoberfest-2020-recreated.webflow.io/";
@@ -12,19 +12,23 @@ const projectImage4 = "https://ninja.dog/5A6nXu.PNG";
 const projectLink4 = "https://drum.fayd.me/";
 const projectImage5 = "https://ninja.dog/c687Qe.PNG";
 const projectLink5 = "https://calculator.fayd.me/";
-const projectImage6 = "https://storage.googleapis.com/file-in.appspot.com/files/Ieowt0XwWS.png";
+const projectImage6 =
+  "https://storage.googleapis.com/file-in.appspot.com/files/Ieowt0XwWS.png";
 const projectLink6 = "https://expenseman.fayd.me/";
-const projectImage7 = "https://storage.googleapis.com/file-in.appspot.com/files/bX-xJi__v3.png";
+const projectImage7 =
+  "https://storage.googleapis.com/file-in.appspot.com/files/bX-xJi__v3.png";
 const projectLink7 = "https://todo.fayd.me/";
+const projectImage8 =
+  "https://storage.googleapis.com/file-in.appspot.com/files/oH2-vfghWS.png";
+const projectLink8 = "https://weatherer.fayd.me";
 
 function ProjectPage() {
   return (
     <>
-      <div id="project" className="project-container">
-        <h1 className="projectPage-title">My Projects</h1>
-
+      <h1 className="projectPage-title">My Projects</h1>
+      <div className="project-container">
         <div className="project-cards">
-          <div className="cards card-1">
+          <div className="cards">
             <a
               className="removeClass"
               href={projectLink1}
@@ -36,13 +40,13 @@ function ProjectPage() {
                 src={projectImage1}
                 alt="Hactoberfest recreated"
               ></img>
-              <h1 className="card-title">Hacktoberfest 2020 Recreated.</h1>
+              <h1 className="card-title">Hacktoberfest 2020</h1>
               <h1 className="card-desc">
                 I recreated the Hactoberfest 2020 website in Webflow!
               </h1>
             </a>
           </div>
-          <div className="cards card-2">
+          <div className="cards">
             <a
               className="removeClass"
               href={projectLink2}
@@ -57,7 +61,7 @@ function ProjectPage() {
               </h1>
             </a>
           </div>
-          <div className="cards card-3">
+          <div className="cards">
             <a
               className="removeClass"
               href={projectLink3}
@@ -76,7 +80,7 @@ function ProjectPage() {
               </h1>
             </a>
           </div>
-          <div className="cards card-4">
+          <div className="cards">
             <a
               className="removeClass"
               href={projectLink4}
@@ -90,7 +94,7 @@ function ProjectPage() {
               </h1>
             </a>
           </div>
-          <div className="cards card-5">
+          <div className="cards">
             <a
               className="removeClass"
               href={projectLink5}
@@ -102,7 +106,7 @@ function ProjectPage() {
               <h1 className="card-desc">Built a Calculator with React JS.</h1>
             </a>
           </div>
-          <div className="cards card-6">
+          <div className="cards">
             <a
               className="removeClass"
               href={projectLink6}
@@ -111,10 +115,12 @@ function ProjectPage() {
             >
               <img className="prj-img" alt="" src={projectImage6}></img>
               <h1 className="card-title">ExpenseMan</h1>
-              <h1 className="card-desc">Expense Organizer built with React JS</h1>
+              <h1 className="card-desc">
+                Expense Organizer built with React JS
+              </h1>
             </a>
           </div>
-          <div className="cards card-7">
+          <div className="cards">
             <a
               className="removeClass"
               href={projectLink7}
@@ -124,6 +130,21 @@ function ProjectPage() {
               <img className="prj-img" alt="" src={projectImage7}></img>
               <h1 className="card-title">Tsilodot</h1>
               <h1 className="card-desc">Todo List built with React JS</h1>
+            </a>
+          </div>
+          <div className="cards">
+            <a
+              className="removeClass"
+              href={projectLink8}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img className="prj-img" alt="" src={projectImage8}></img>
+              <h1 className="card-title">Weatherer</h1>
+              <h1 className="card-desc">
+                Weather App Built with React JS and Weather API! Just type the
+                name of a place and it will return you the realtime data!
+              </h1>
             </a>
           </div>
         </div>

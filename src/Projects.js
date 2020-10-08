@@ -1,7 +1,5 @@
 import React from "react";
 import "./Project.css";
-import "./MinorProjects.js";
-import MinorProjects from "./MinorProjects.js";
 import { Link } from "react-router-dom";
 
 const projectImage1 = "https://doggo.ninja/RUtKvm.PNG";
@@ -26,7 +24,7 @@ const Projects = () => {
                 src={projectImage1}
                 alt="Hactoberfest recreated"
               ></img>
-              <h1 className="card-title">Hacktoberfest 2020 Recreated.</h1>
+              <h1 className="card-title">Hacktoberfest 2020</h1>
               <h1 className="card-desc">
                 I recreated the Hactoberfest 2020 website in Webflow!
               </h1>
@@ -52,10 +50,6 @@ const Projects = () => {
           </div>
         </div>
         <Link to='/projects' className='more-projects'>MORE</Link>
-        <div className="minor-proj">
-          <h1 className="minor-proj-title">My Other Minor Projects</h1>
-          <MinorProjects />
-        </div>
       </div>
     </>
   );
