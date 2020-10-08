@@ -1,17 +1,16 @@
 .main-outro {
     background-color: whitesmoke;
-    height: 200px;
+    border: 2px inset #282c34;
+    height: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #outro-text {
     margin: 0 5%;
     color: #282c34;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: left;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .webring-anchor {
@@ -37,6 +36,6 @@
 
 @media(max-width: 500px) {
     #outro-text {
-        font-size: 20px;
+        font-size: 15px;
     }
 }

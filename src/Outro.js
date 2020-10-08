@@ -3,7 +3,6 @@ import "./Outro.css";
 
 const Outro = () => {
   return (
-    <>
       <div className="main-outro">
         <div id="webring-wrapper">
           <a
@@ -19,7 +18,7 @@ const Outro = () => {
             className="webring-logo"
             title="Hack Club Webring"
             alt="Hack Club Webring"
-          ></a>
+          > </a>
           <a
             href="https://fogeinator.github.io/"
             id="nextBtn"
@@ -30,14 +29,8 @@ const Outro = () => {
           </a>
           <script src="https://webring.hackclub.com/public/embed.min.js"></script>
         </div>
-        <h2 id="outro-text">
-          <a className="removeClass" href="#home">
-            Home
-          </a>
-        </h2>
-        <h2 id="outro-text">Copyright 2020 Faisal Sayed All Rights Reserved</h2>
+        <h2 id="outro-text">Made by Faisal Sayed</h2>
       </div>
-    </>
   );
 };
 

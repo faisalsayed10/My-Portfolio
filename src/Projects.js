@@ -8,7 +8,7 @@ const projectLink1 = "https://hacktoberfest-2020-recreated.webflow.io/";
 const projectImage2 = "https://doggo.ninja/p5OrIe.png";
 const projectLink2 = "https://play.google.com/store/apps/details?id=com.faydstudios.rius"
 const projectImage3 = "https://ninja.dog/i0IbpK.PNG";
-const projectLink3 = "https://7m8o8.csb.app/";
+const projectLink3 = "https://binger.fayd.me/";
 const projectImage4 = "https://ninja.dog/5A6nXu.PNG";
 const projectLink4 = "https://drum.fayd.me/";
 const projectImage5 = "https://ninja.dog/c687Qe.PNG";

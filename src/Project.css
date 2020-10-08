@@ -126,10 +126,19 @@
 
 @media (max-width: 500px) {
   .projects-title {
-    font-size: 55px;
+    font-size: 45px;
     padding: 10px;
   }
   .minor-proj-title {
-    font-size: 45px;
+    font-size: 30px;
   }
+
+  .cards {
+    display: none;
+  }
+
+  .minor-proj-list {
+    font-size: 25px;
+  }
+
 }

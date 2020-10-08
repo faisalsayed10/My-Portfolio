@@ -2,25 +2,23 @@ import React from 'react';
 import './Nav.css';
 
 function Nav() {
+
+
   return (
     <>
       <div id='home'></div>
-      <div className='Navbar1'>
-        <nav className='Nav1'>
-          <h1 className='nav1-child'>Scroll <span>👇</span></h1>
-        </nav>
-      </div>
-
-      <div className='Navbar2'>
-
-        <nav className='Nav2'>
-            <a href='#home' className='nav2-child current'>Home</a>
-            <a href='#about' className='nav2-child'>About</a>
-            <a href='#project' className='nav2-child'>Projects</a>
-            <a href='#contact' className='nav2-child'>Contact</a>
+        <nav className='Navbar'>
+            <h1 className='child'>Scroll <span role="img" aria-label="emoji">👇</span></h1>
         </nav>
 
-      </div>
+        <nav className='main-nav'>
+          <ul class="elements">
+            <li><a class="nav-el" href='#home'>Home</a></li>
+            <li><a class="nav-el" href='#about'>About</a></li>
+            <li><a class="nav-el" href='#project'>Projects</a></li>
+            <li><a class="nav-el" href='#contact'>Contact</a></li>
+          </ul>
+      </nav>
     </>
   );
 }

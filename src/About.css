@@ -6,62 +6,8 @@
     margin-top: 150px;
     margin: 0 auto;
     border: solid whitesmoke 5px;
-    border-radius: 50px;
-    width: 20%;
-}
-
-.myPic2{
-    z-index: 5;
-    position: absolute;
-    display: block;
-    margin-top: 150px;
-    margin: 0 auto;
-    border: solid whitesmoke 5px;
-    border-radius: 50px;
-    width: 20%;
-}
-
-.myPic3{
-    z-index: 5;
-    position: absolute;
-    display: block;
-    margin-top: 150px;
-    margin: 0 auto;
-    border: solid whitesmoke 5px;
-    border-radius: 50px;
-    width: 20%;
-}
-
-.myPic4{
-    z-index: 5;
-    position: absolute;
-    display: block;
-    margin-top: 150px;
-    margin: 0 auto;
-    border: solid whitesmoke 5px;
-    border-radius: 50px;
-    width: 20%;
-}
-
-.myPic5{
-    z-index: 5;
-    position: absolute;
-    display: block;
-    margin-top: 150px;
-    margin: 0 auto;
-    border: solid whitesmoke 5px;
-    border-radius: 50px;
-    width: 20%;
-}
-
-.secretLink {
-    z-index: 1;
-    position: absolute;
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 5px;
-    text-align: center;
-    color: whitesmoke;
-    font-weight: 200;
+    border-radius: 10px;
+    width: 25%;
 }
 
 .img-flex {
@@ -147,9 +93,13 @@ span {
 }
 
 
-@media(max-width: 1000px) {
+@media(max-width: 750px) {
     .about-me {
         font-size: 30px;
+    }
+
+    .myPic1 {
+        width: 45%;
     }
 }
 
@@ -166,7 +116,6 @@ span {
 @media(max-width: 350px) {
     .about-me {  
         font-size: 20px;
-        margin-bottom: 300px;
     }
 
     .about-title {

@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
-import MyPic from "./MyPic";
+
+const MyImage = 'https://doggo.ninja/IBf0BT.png';
 
 const About = () => {
   return (
     <div id="about" className="about-container">
       <h1 className="about-title">About Me</h1>
-      <MyPic />
+      <img className='myPic1' src={MyImage} alt='My Pic' />
       <div className="about-me">
         <p>
           <span className="txt1">Hi! I'm Faisal Sayed</span>
@@ -26,13 +27,11 @@ const About = () => {
           <span className="txt6">I am also a Hack Clubber!</span>
           <span className="txt9"> I love to play games,</span>
           <span className="txt2"> make gaming videos</span>
-          <span className="txt8"> and have fun with it. </span>
-          <span className="txt1">
-            <Link className="removeClass" to="/journey">
-              Read More Here
-            </Link>
-          </span>
+          <span className="txt8"> and have fun with it.</span>
         </p>
+        <Link className="removeClass" to="/journey">
+          <span className="txt1">Read More Here</span>
+        </Link>
       </div>
     </div>
   );

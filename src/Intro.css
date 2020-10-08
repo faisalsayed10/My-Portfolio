@@ -24,7 +24,6 @@
 }
 
 .special-text2 {
-    padding-bottom: 300px;
     z-index: -1;
 }
 
@@ -44,20 +43,20 @@
 @media(max-width: 750px) {
     .scroll-text {  
         font-size: 100px;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
     }
 }
 
 @media(max-width: 500px) {
     .scroll-text {  
         font-size: 75px;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
     }
 }
 
 @media(max-width: 350px) {
     .scroll-text {  
-        font-size: 50px;
-        margin-bottom: 300px;
+        font-size: 35px;
+        margin-bottom: 200px;
     }
 }
