@@ -12,6 +12,10 @@ const projectImage4 = "https://ninja.dog/5A6nXu.PNG";
 const projectLink4 = "https://drum.fayd.me/";
 const projectImage5 = "https://ninja.dog/c687Qe.PNG";
 const projectLink5 = "https://calculator.fayd.me/";
+const projectImage6 = "https://storage.googleapis.com/file-in.appspot.com/files/Ieowt0XwWS.png";
+const projectLink6 = "https://expenseman.fayd.me/";
+const projectImage7 = "https://storage.googleapis.com/file-in.appspot.com/files/bX-xJi__v3.png";
+const projectLink7 = "https://todo.fayd.me/";
 
 function ProjectPage() {
   return (
@@ -96,6 +100,30 @@ function ProjectPage() {
               <img className="prj-img" alt="" src={projectImage5}></img>
               <h1 className="card-title">Calculator</h1>
               <h1 className="card-desc">Built a Calculator with React JS.</h1>
+            </a>
+          </div>
+          <div className="cards card-6">
+            <a
+              className="removeClass"
+              href={projectLink6}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img className="prj-img" alt="" src={projectImage6}></img>
+              <h1 className="card-title">ExpenseMan</h1>
+              <h1 className="card-desc">Expense Organizer built with React JS</h1>
+            </a>
+          </div>
+          <div className="cards card-7">
+            <a
+              className="removeClass"
+              href={projectLink7}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img className="prj-img" alt="" src={projectImage7}></img>
+              <h1 className="card-title">Tsilodot</h1>
+              <h1 className="card-desc">Todo List built with React JS</h1>
             </a>
           </div>
         </div>

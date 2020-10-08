@@ -51,7 +51,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-          <Link to='/projects' className='more-projects'>MORE</Link>
+        <Link to='/projects' className='more-projects'>MORE</Link>
         <div className="minor-proj">
           <h1 className="minor-proj-title">My Other Minor Projects</h1>
           <MinorProjects />
