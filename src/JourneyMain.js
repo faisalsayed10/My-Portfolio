@@ -1,7 +1,5 @@
 import React from 'react';
 import './journeyMain.css';
-import './Outro';
-import Outro from './Outro';
 
 const JourneyMain = () => {
     const fccLink = 'https://freecodecamp.org';
@@ -20,11 +18,11 @@ const JourneyMain = () => {
             <h1 className='my-journey'>My Coding Journey</h1>
             {/* <a className='back' href={'/'}><img className='back-img' src={back}></img></a> */}
             <div className='web-links'>
-                <a className='web-link' target='_blank' href={fccLink}><img className='fcc-img web-img' src={freeCodeCampImg}></img></a>
-                <a className='web-link' target='_blank' href={codeOrgLink}><img className='codeOrg-img web-img' src={codeOrgImg}></img></a>
-                <a className='web-link' target='_blank' href={hackClubLink}><img className='hackclub-img web-img' src={hackClubLogo}></img></a>
-                <a className='web-link' target='_blank' href={js30Link}><img className='js30-img web-img' src={js30Img}></img></a>
-                <a className='web-link' target='_blank' href={buildBoxLink}><img className='bbImg-img web-img' src={buildboxImg}></img></a>
+                <a className='web-link' rel="noopener noreferrer" target='_blank' href={fccLink}><img className='fcc-img web-img' alt='' src={freeCodeCampImg}></img></a>
+                <a className='web-link' rel="noopener noreferrer" target='_blank' href={codeOrgLink}><img className='codeOrg-img web-img' alt='' src={codeOrgImg}></img></a>
+                <a className='web-link' rel="noopener noreferrer" target='_blank' href={hackClubLink}><img className='hackclub-img web-img' alt='' src={hackClubLogo}></img></a>
+                <a className='web-link' rel="noopener noreferrer" target='_blank' href={js30Link}><img className='js30-img web-img' alt='' src={js30Img}></img></a>
+                <a className='web-link' rel="noopener noreferrer" target='_blank' href={buildBoxLink}><img className='bbImg-img web-img' alt='' src={buildboxImg}></img></a>
             </div>
             <h2 className='age'>Age 12 - 2017</h2>
             <h3 className='journey-desc'>When I was 12 years old I found this website called Code.org. 

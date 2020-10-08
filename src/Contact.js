@@ -22,13 +22,13 @@ const Contact = () => {
             <div className='contact-me'>
                 <h1 id='contact' className='contact-title'>Contact Me</h1>
                 <div className='social-container'>
-                    <a className='social-link' target='_blank' href={twitterLink}><img className='twitter-img social-img' src={twitterImg}></img></a>
-                    <a className='social-link' target='_blank' href={instaLink}><img className='insta-img social-img' src={instaImg}></img></a>
-                    <a className='social-link' target='_blank' href={slackLink}><img className='slack-img social-img' src={slackImg}></img></a>
-                    <a className='social-link' target='_blank' href={githubLink}><img className='github-img social-img' src={githubImg}></img></a>
-                    <a className='social-link' target='_blank' href={freeCodeCampLink}><img className='fcc-img social-img' src={freeCodeCampImg}></img></a>
-                    <a className='social-link' target='_blank' href={scbookLink}><img className='fcc-img social-img' src={scbookLogo}></img></a>
-                    <a className='social-link' target='_blank' href={mailLink}><img className='mail-img social-img' src={mailLogo}></img></a>
+                    <a className='social-link' rel="noopener noreferrer" target='_blank' href={twitterLink}><img className='twitter-img social-img' alt='' src={twitterImg}></img></a>
+                    <a className='social-link' rel="noopener noreferrer" target='_blank' href={instaLink}><img className='insta-img social-img' alt='' src={instaImg}></img></a>
+                    <a className='social-link' rel="noopener noreferrer" target='_blank' href={slackLink}><img className='slack-img social-img' alt='' src={slackImg}></img></a>
+                    <a className='social-link' rel="noopener noreferrer" target='_blank' href={githubLink}><img className='github-img social-img' alt='' src={githubImg}></img></a>
+                    <a className='social-link' rel="noopener noreferrer" target='_blank' href={freeCodeCampLink}><img className='fcc-img social-img' alt='' src={freeCodeCampImg}></img></a>
+                    <a className='social-link' rel="noopener noreferrer" target='_blank' href={scbookLink}><img className='fcc-img social-img' alt='' src={scbookLogo}></img></a>
+                    <a className='social-link' rel="noopener noreferrer" target='_blank' href={mailLink}><img className='mail-img social-img' alt='' src={mailLogo}></img></a>
                 </div>
             </div>
         </>

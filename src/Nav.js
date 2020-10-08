@@ -12,11 +12,11 @@ function Nav() {
         </nav>
 
         <nav className='main-nav'>
-          <ul class="elements">
-            <li><a class="nav-el" href='#home'>Home</a></li>
-            <li><a class="nav-el" href='#about'>About</a></li>
-            <li><a class="nav-el" href='#project'>Projects</a></li>
-            <li><a class="nav-el" href='#contact'>Contact</a></li>
+          <ul className="elements">
+            <li><a className="nav-el" href='#home'>Home</a></li>
+            <li><a className="nav-el" href='#about'>About</a></li>
+            <li><a className="nav-el" href='#project'>Projects</a></li>
+            <li><a className="nav-el" href='#contact'>Contact</a></li>
           </ul>
       </nav>
     </>
