@@ -6,7 +6,7 @@ const Outro = () => {
       <div className="main-outro">
         <div id="webring-wrapper">
           <a
-            href="https://loboadrian.github.io/"
+            href="https://webring.hackclub.com/"
             id="previousBtn"
             className="webring-anchor"
             title="Previous"
@@ -20,7 +20,7 @@ const Outro = () => {
             alt="Hack Club Webring"
           > </a>
           <a
-            href="https://fogeinator.github.io/"
+            href="https://webring.hackclub.com/"
             id="nextBtn"
             className="webring-anchor"
             title="Next"
