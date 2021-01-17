@@ -19,6 +19,14 @@ const projectImage7 = "http://u.filein.io/AyRQUdIpdX.png";
 const projectLink7 = "https://todo.fayd.me/";
 const projectImage8 = "http://u.filein.io/NCSXHHL-Xj.png";
 const projectLink8 = "https://weatherer.fayd.me";
+const projectImage9 = "";
+const projectLink9 = "";
+const projectImage10 = "";
+const projectLink10 = "";
+const projectImage11 = "";
+const projectLink11 = "";
+const projectImage12 = "";
+const projectLink12 = "";
 
 function ProjectPage() {
   return (
