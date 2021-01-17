@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-const MyImage = "https://bit.ly/38W2wCl";
+const MyImage = "http://u.filein.io/75Jl0hQLsV.jpg";
 
 const About = () => {
   return (
