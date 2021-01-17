@@ -1,5 +1,4 @@
 .project-container {
-  font-family: "Ubuntu", sans-serif;
   z-index: 100;
   color: #282c34;
 }
@@ -9,7 +8,7 @@
   top: 42px;
   background-color: whitesmoke;
   text-align: center;
-  font-size: 80px;
+  font-size: 48px;
   z-index: 2;
 }
 
@@ -17,7 +16,7 @@
   text-align: center;
   display: block;
   margin: 20px auto;
-  font-size: 50px;
+  font-size: 32px;
   color: whitesmoke;
   text-decoration: none;
 }
@@ -28,14 +27,14 @@
   flex-wrap: wrap;
 }
 
-.cards {
+.card {
   padding-top: 20px;
   margin: 20px;
   background-color: whitesmoke;
   border-radius: 10px;
-  min-width: 400px;
-  max-width: 450px;
-  min-height: 550px;
+  min-width: 300px;
+  max-width: 350px;
+  min-height: 400px;
   box-shadow: 2px 2px 30px rgba(245, 245, 245, 0.7);
   transition: transform 0.3s cubic-bezier(0.55, 0.67, 0.8, 1);
   cursor: crosshair;
@@ -50,16 +49,16 @@
 
 .card-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .card-desc {
-  padding: 20px;
-  text-align: center;
-  font-size: 25px;
+  margin: 0 10% 0 10%;
+  text-align: justify;
+  font-size: 18px;
 }
 
-.cards:hover {
+.card:hover {
   transform: scale(1.05);
 }
 
@@ -68,35 +67,15 @@
     justify-content: center;
     margin: 0;
   }
-
-  .card-title {
-    font-size: 30px;
-  }
 }
 
-@media (max-width: 500px) {
-  .projects-title {
-    font-size: 45px;
-    padding: 10px;
-  }
-  
+@media (max-width: 500px) {  
   .project-cards {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 
-  .cards {
-    min-width: 300px;
-    min-height: 100px;
-  }
-  .card-desc {
-    display: none;
-  }
-}
-
-@media (max-width: 320px) {
-  .cards {
+  .card {
     min-width: 250px;
   }
 }

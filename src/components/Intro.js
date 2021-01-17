@@ -46,7 +46,7 @@ const H1 = (props) => {
       window.removeEventListener("scroll", debounced);
     };
   }, []);
-
+  // eslint-disable-next-line
   return <h1 ref={ref} {...props} />;
 };
 

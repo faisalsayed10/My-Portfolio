@@ -1,39 +1,31 @@
-.myPic1 {
+.myPic {
   z-index: 5;
-  position: relative;
-  display: block;
-  margin-top: 150px;
-  margin: 0 auto;
   border: solid whitesmoke 5px;
   border-radius: 10px;
-  width: 25%;
-}
-
-.img-flex {
-  position: static;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 250px;
 }
 
 .about-title {
   z-index: 7;
   background-color: whitesmoke;
-  font-family: "Ubuntu", sans-serif;
   text-align: center;
-  font-size: 80px;
+  font-size: 48px;
   color: #282c34;
   position: sticky;
   top: 43px;
 }
 
 .about-me {
-  font-family: "Ubuntu", sans-serif;
-  text-align: center;
-  font-size: 40px;
-  margin-left: 5%;
-  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
   cursor: crosshair;
+}
+
+.text-content {
+  max-width: 350px;
+  margin-left: 1.5rem;
 }
 
 span {
@@ -86,37 +78,8 @@ span {
   transform: scale(1.01);
 }
 
-.secret {
-  display: none;
-}
-
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   .about-me {
-    font-size: 30px;
-  }
-
-  .myPic1 {
-    width: 45%;
-  }
-}
-
-@media (max-width: 500px) {
-  .about-me {
-    font-size: 20px;
-  }
-
-  .about-title {
-    font-size: 55px;
-  }
-}
-
-@media (max-width: 350px) {
-  .about-me {
-    font-size: 20px;
-  }
-
-  .about-title {
-    font-size: 50px;
-    padding: 10px;
+    flex-direction: column;
   }
 }

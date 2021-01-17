@@ -1,20 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-
 .projectPage-title {
   position: sticky;
   top: 0;
   margin: 0;
   background-color: whitesmoke;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 80px;
+  font-size: 42px;
   color: #282c34;
   z-index: 2;
 }
 
 @media (max-width: 500px) {
-  .cards {
-    width: 200px;
+  .card {
+    min-width: 250px;
   }
 }

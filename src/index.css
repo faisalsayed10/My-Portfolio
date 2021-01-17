@@ -3,6 +3,7 @@
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
 body {
@@ -10,12 +11,19 @@ body {
   background-color: #282c34;
 }
 
-code {
-  font-family: 'Ubuntu', sans-serif;
-}
-
 noscript {
   text-align: center;
   font-size: 25px;
   color: whitesmoke;
+}
+
+.main-outro {
+  background-color: whitesmoke;
+  border: 2px inset #282c34;
+  text-align: center;
+}
+
+#outro-text {
+  color: #282c34;
+  font-size: 1rem;
 }

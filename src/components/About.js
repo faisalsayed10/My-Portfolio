@@ -1,37 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./About.css";
 
-const MyImage = "https://doggo.ninja/IBf0BT.png";
+const MyImage = "https://bit.ly/38W2wCl";
 
 const About = () => {
   return (
     <div id="about" className="about-container">
       <h1 className="about-title">About Me</h1>
-      <img className="myPic1" src={MyImage} alt="My Pic" />
       <div className="about-me">
-        <p>
-          <span className="txt1">Hi! I'm Faisal Sayed</span>
-          <span className="txt2"> also</span>
-          <span className="txt3"> known as Fayd.</span>
-          <span className="txt4"> I'm 15</span>
-          <span className="txt5"> and I love to code and make games.</span>
-          <span className="txt6"> I've learnt</span>
-          <span className="txt7"> HTML, CSS,</span>
-          <span className="txt8"> JSX, python, </span>
-          <span className="txt9">Javascript and React Js.</span>
-          <span className="txt4"> I love Javascript and React</span>
-          <span className="txt3"> the most.</span>
+        <img className="myPic" src={MyImage} alt="My Pic" />
+        <p className="text-content">
+          <span className="txt1">Hi! I'm Faisal Sayed,</span>
+          <span className="txt4"> A 15 yo high schooler</span>
+          <span className="txt5"> and I love to code.</span>
           <span className="txt7"> I can build </span>
-          <span className="txt1">sweet looking front-end websites! </span>
-          <span className="txt6">I am also a Hack Clubber!</span>
-          <span className="txt9"> I love to play games,</span>
-          <span className="txt2"> make gaming videos</span>
-          <span className="txt8"> and have fun with it.</span>
+          <span className="txt1">sweet looking full-stack websites! </span>
+          <span className="txt9"> I also like playing games!</span>
         </p>
-        <Link className="removeClass" to="/journey">
-          <span className="txt1">Read More Here</span>
-        </Link>
       </div>
     </div>
   );

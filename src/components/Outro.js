@@ -1,5 +1,4 @@
 import React from "react";
-import "./Outro.css";
 
 const Outro = () => {
   return (
