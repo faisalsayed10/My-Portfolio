@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
 
-const MyImage = 'https://doggo.ninja/IBf0BT.png';
+const MyImage = "https://doggo.ninja/IBf0BT.png";
 
 const About = () => {
   return (
     <div id="about" className="about-container">
       <h1 className="about-title">About Me</h1>
-      <img className='myPic1' src={MyImage} alt='My Pic' />
+      <img className="myPic1" src={MyImage} alt="My Pic" />
       <div className="about-me">
         <p>
           <span className="txt1">Hi! I'm Faisal Sayed</span>

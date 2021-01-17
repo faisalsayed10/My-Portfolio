@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css";
+import "./Projects.css";
 import { Link } from "react-router-dom";
 
 const projectImage1 = "https://doggo.ninja/RUtKvm.PNG";
